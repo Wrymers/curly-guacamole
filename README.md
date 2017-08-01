@@ -2,7 +2,7 @@
 # components
 You have to import the webbrowser function from the Python Standard Library using:
 
-import webbrowser
+{import webbrowser
 
 You will then create a class called Video and allow it to accept arguments under the: title, storyline, poster, trailer and rating.
 class Video:
@@ -14,7 +14,7 @@ class Movie(Video):
         self.title = movie_title
         self.storyline = movie_storyline
         self.poster_image_url = poster_image
-        self.trailer_youtube_url = trailer_youtube
+        self.trailer_youtube_url = trailer_youtube}
 
 def show_trailer(self):
         webbrowser.open(self.trailer_youtube_url)
