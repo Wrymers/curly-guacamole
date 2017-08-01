@@ -2,7 +2,7 @@
 # components
 You have to import the webbrowser function from the Python Standard Library using:
 
-(import webbrowser
+[{(import webbrowser)}]
 
 You will then create a class called Video and allow it to accept arguments under the: title, storyline, poster, trailer and rating.
 class Video:
