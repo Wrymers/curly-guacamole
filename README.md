@@ -1,6 +1,7 @@
 # curly-guacamole
 # components
 import webbrowser
+
 class Video:
     def__init__(self, title, duration)
 class Movie(Video):
@@ -11,9 +12,10 @@ class Movie(Video):
         self.storyline = movie_storyline
         self.poster_image_url = poster_image
         self.trailer_youtube_url = trailer_youtube
-
-    def show_trailer(self):
+        
+def show_trailer(self):
         webbrowser.open(self.trailer_youtube_url)
+
 class TvShow(Video)"
     def __intit__(season,episode, tv_station)
     def get_local)listing()
