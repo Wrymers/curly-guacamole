@@ -2,6 +2,7 @@
 # components
 import webbrowser
 
+
 class Video:
     def__init__(self, title, duration)
 class Movie(Video):
